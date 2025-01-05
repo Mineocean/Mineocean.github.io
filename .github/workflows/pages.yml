@@ -29,10 +29,6 @@ jobs:
             ${{ runner.OS }}-npm-cache
       - name: Install Dependencies
         run: npm install
-      - name: Find cinema Data
-        run: hexo cinema -u
-      - name: Find bangumi Data
-        run: hexo bangumi -u
       - name: Build
         run: npm run build
       - name: Upload Pages artifact
