@@ -29,13 +29,8 @@ nav:
     - title: 网页
       item:
         - name: 博客
-          link: https://blog.anheyu.com/
+          link: https://mineocean.github.io/
           icon: /img/favicon.ico
-    - title: 项目
-      item:
-        - name: 安知鱼图床
-          link: https://image.anheyu.com/
-          icon: https://image.anheyu.com/favicon.ico
 
 # mourn （哀悼日，指定日期网站简单变灰，不包括滚动条）
 # 注意： 仅网站首页变灰，其他页面正常显示
@@ -57,7 +52,7 @@ code_word_wrap: false
 # copyright: Add the copyright information after copied content (複制的内容后面加上版权信息)
 # copy: enable 复制后弹窗提示版权信息
 copy:
-  enable: true
+  enable: false
   copyright:
     enable: false
     limit_count: 50
@@ -77,12 +72,7 @@ author_status:
   skills:
     # - 🤖️ 数码科技爱好者
     # - 🔍 分享与热心帮助
-    # - 🏠 智能家居小能手
-    # - 🔨 设计开发一条龙
-    # - 🤝 专修交互与设计
-    # - 🏃 脚踏实地行动派
-    # - 🧱 团队小组发动机
-    # - 💢 壮汉人狠话不多
+
 
 # search (搜索)
 # see https://blog.anheyu.com/posts/c27d.html#搜索系统
@@ -140,7 +130,7 @@ favicon: /favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: https://avatars.githubusercontent.com/u/123440729?v=4
   effect: false
 
 # Disable all banner image
@@ -171,7 +161,7 @@ error_img:
 
 # A simple 404 page
 error_404:
-  enable: true
+  enable: false
   subtitle: "请尝试站内搜索寻找文章"
   background: https://bu.dusays.com/2023/05/08/645907596997d.gif
 
@@ -234,7 +224,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 甘肃
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -244,7 +234,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   QR_code:
     - img: https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png
       link:
@@ -257,9 +247,9 @@ reward:
 # Easily browse and edit blog source code online.
 post_edit: # 目前仅可选择一个平台在线编辑
   enable: false
-  # github: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/
+  # github: https://github.com/Mineocean/Mineocean.github.io/tree/main/source/_posts
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
-  github: false
+  github: true
 
   # yuque: https://www.yuque.com/user-name/repo-name/
   # 示例: https://www.yuque.com/yuque/yuque/
@@ -447,9 +437,6 @@ footer:
       - link: https://blog.anheyu.com/
         shields: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg
         message: 本站使用AnZhiYu主题
-      # - link: https://www.dogecloud.com/
-      #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.2.0/img/badge/CDN-多吉云-3693F3.svg
-      #   message: 本站使用多吉云为静态资源提供CDN加速
       # - link: https://github.com/
       #   shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
       #   message: 本站项目由Github托管
@@ -461,27 +448,12 @@ footer:
     centerImg:
     left:
       # - title: email
-      #   link: mailto:anzhiyu-c@qq.com
+      #   link: mailto:mineocean4869@gmail.com
       #   icon: anzhiyu-icon-envelope
-      # - title: 微博
-      #   link: https://weibo.com/u/6378063631
-      #   icon: anzhiyu-icon-weibo
-      # - title: facebook
-      #   link: https://www.facebook.com/profile.php?id=100092208016287&sk=about
-      #   icon: anzhiyu-icon-facebook1
-      # - title: RSS
-      #   link: atom.xml
-      #   icon: anzhiyu-icon-rss
     right:
       # - title: Github
-      #   link: https://github.com/anzhiyu-c
+      #   link: https://github.com/Mineocean/
       #   icon: anzhiyu-icon-github
-      # - title: Bilibili
-      #   link: https://space.bilibili.com/372204786
-      #   icon: anzhiyu-icon-bilibili
-      # - title: 抖音
-      #   link: https://v.douyin.com/DwCpMEy/
-      #   icon: anzhiyu-icon-tiktok
       # - title: CC
       #   link: /copyright
       #   icon: anzhiyu-icon-copyright-line
@@ -532,10 +504,8 @@ footer:
         text: 主题
       # - link: https://image.anheyu.com
       #   text: 图床
-      # - link: https://beian.miit.gov.cn/
-      #   text: 湘ICP备-xxxxxxx号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
@@ -545,7 +515,7 @@ footer:
       # loop (循环打字)
       loop: true
       # source 调用第三方服务
-      # source: false 关闭调用
+      # source: true 关闭调用
       # source: 1  调用一言网的一句话（简体） https://hitokoto.cn/
       # source: 2  调用一句网（简体） http://yijuzhan.com/
       # source: 3  调用今日诗词（简体） https://www.jinrishici.com/
@@ -730,7 +700,7 @@ ClickShowText:
 
 # Default display mode (网站默认的显示模式)
 # light (default) / dark
-display_mode: light
+display_mode: dark
 
 # Beautify (美化页面显示)
 beautify:
@@ -1183,7 +1153,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local
