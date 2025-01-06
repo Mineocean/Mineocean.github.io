@@ -22,7 +22,7 @@ menu:
 
 # nav相关配置
 nav:
-  enable: false
+  enable: true
   travelling: false
   clock: true
   menu:
@@ -61,8 +61,8 @@ copy:
 # formal:
 #   name: link || icon
 social:
-  # Github: https://github.com/Mineocean || anzhiyu-icon-github
-  # BiliBili: https://space.bilibili.com/445578281 || anzhiyu-icon-bilibili
+   Github: https://github.com/Mineocean || anzhiyu-icon-github
+   BiliBili: https://space.bilibili.com/445578281 || anzhiyu-icon-bilibili
 
 # 作者卡片 状态
 author_status:
@@ -70,8 +70,8 @@ author_status:
   # 可以是任何图片，建议放表情包或者emoji图片，效果都很好，[表情包速查](https://emotion.xiaokang.me/)
   statusImg: "https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png"
   skills:
-    # - 🤖️ 数码科技爱好者
-    # - 🔍 分享与热心帮助
+     - 🤖️ 数码科技爱好者
+     - 🔍 分享与热心帮助
 
 
 # search (搜索)
@@ -144,9 +144,9 @@ default_top_img: false
 
 cover:
   # display the cover or not (是否显示文章封面)
-  index_enable: false
-  aside_enable: false
-  archives_enable: false
+  index_enable: true
+  aside_enable: true
+  archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
   position: left
@@ -246,7 +246,7 @@ reward:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit: # 目前仅可选择一个平台在线编辑
-  enable: false
+  enable: true
   # github: https://github.com/Mineocean/Mineocean.github.io/tree/main/source/_posts
   # For example: https://github.com/jerryc127/butterfly.js.org/edit/main/source/
   github: true
@@ -753,7 +753,7 @@ subtitle:
 
 # Loading Animation (加载动画)
 preloader:
-  enable: true
+  enable: false
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
@@ -821,15 +821,15 @@ aside:
 # busuanzi count for PV / UV in site
 # 访问人数
 busuanzi:
-  site_uv: false
-  site_pv: false
+  site_uv: true
+  site_pv: true
   page_pv: false
 
 # Time difference between publish date and now (网页运行时间)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
   enable: true
-  publish_date: 4/1/2021 00:00:00
+  publish_date: 1/5/2025 23:00:00
 
 # Console - Newest Comments
 newest_comments:
@@ -1122,7 +1122,7 @@ ptool:
 
 # 欢迎语配置
 greetingBox:
-  enable: true #开启后必须配置下面的list对应的时间段，不然会出现小白条
+  enable: false #开启后必须配置下面的list对应的时间段，不然会出现小白条
   default: 晚上好👋
   list:
     # - greeting: 晚安😴
@@ -1189,7 +1189,7 @@ agreementPopup:
 
 # 右键菜单
 rightClickMenu:
-  enable: false
+  enable: true
 
 # 首页随便逛逛people模式 而非技能点模式，关闭后为技能点模式需要配置creativity.yml
 peoplecanvas:
